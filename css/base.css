@@ -552,7 +552,7 @@ textarea {
 /* ------------------------------------------------------------------- 
  * small mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
-@media screen and (max-width:400px) {
+@media screen and (max-width:1080px) {
 	.row .row {
 		padding-left: 0;
 		padding-right: 0;

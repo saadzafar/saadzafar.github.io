@@ -1122,7 +1122,7 @@ input::-moz-focus-inner {
 .skill-bars li .progress span {
 	position: absolute;
 	right: 0;
-	top: -3.6rem;
+	top: 1.4rem;
 	display: block;
 	font-family: "montserrat-regular", sans-serif;
 	color: white;
@@ -1136,11 +1136,11 @@ input::-moz-focus-inner {
 .skill-bars li .progress span::after {
 	position: absolute;
 	left: 50%;
-	bottom: -5px;
+	bottom: 22px;
 	margin-left: -5px;
 	border-right: 5px solid transparent;
 	border-left: 5px solid transparent;
-	border-top: 5px solid #313131;
+	border-bottom: 5px solid #313131;
 	content: "";
 }
 
