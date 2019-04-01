@@ -2211,7 +2211,7 @@ header .header-logo a {
 }
 
 #skills [class="col-skills"] {
-	width: 50%;
+	width: 100%;
 	padding-right: 0;
 }
 
@@ -3162,4 +3162,18 @@ footer .footer-social li:last-child {
 		right: 0;
 	}
 
+}
+
+.skill-break-line {
+	display: none;
+}
+
+@media screen and (max-width:1023px) {
+	.skill-break-line {
+		display: block;
+	}
+}
+
+.always-show {
+	display: block;
 }
